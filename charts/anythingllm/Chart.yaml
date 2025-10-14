@@ -1,0 +1,31 @@
+apiVersion: v2
+name: anythingllm
+description: The all-in-one Desktop & Docker AI application with built-in RAG, AI agents, No-code agent builder, MCP compatibility, and more.
+appVersion: "1.9.0"
+version: 1.0.0
+kubeVersion: ">=1.19.0-0"
+home: https://anythingllm.com/
+icon: https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/frontend/public/favicon.png
+sources:
+  - https://github.com/Mintplex-Labs/anything-llm
+  - https://github.com/Mintplex-Labs/helm-charts
+maintainers:
+  - name: Mintplex-Labs
+    email: team@mintplexlabs.com
+type: application
+keywords:
+  - AI
+  - LLM
+  - RAG
+  - Agents
+  - No-code
+  - MCP
+  - Vector DB
+  - AnythingLLM
+annotations:
+  "artifacthub.io/operator": "false"
+  "artifacthub.io/licenses": "MIT"
+  "artifacthub.io/links.logo": "https://raw.githubusercontent.com/Mintplex-Labs/anything-llm/refs/heads/master/frontend/public/favicon.png"
+  "artifacthub.io/links.home": https://anythingllm.com/
+  "artifacthub.io/links.maintainers": "https://mintplexlabs.com"
+  "artifacthub.io/links.source": "https://github.com/Mintplex-Labs/helm-chart"
