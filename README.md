@@ -356,4 +356,8 @@ helm package charts/my-chart
 
 **Maintainer**: Mintplex Labs Team
 **Repository**: https://github.com/mintplex-labs/helm-charts
-**Website**: https://mintplex-labs.com
+**Website**: https://mintplexlabs.com
+
+---
+
+**Credit**: [Sam Culley](https://github.com/sculley) for the original repository structure and foundation.
